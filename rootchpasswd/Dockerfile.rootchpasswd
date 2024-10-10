@@ -1,0 +1,4 @@
+FROM registry.access.redhat.com/ubi8/ubi:latest
+
+RUN echo 'root:Asdf_123' | chpasswd && \
+		sed -i 's/123/1234/' /etc/ssh/sshd_config
