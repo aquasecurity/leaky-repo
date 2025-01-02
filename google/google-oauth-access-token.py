@@ -1,0 +1,3 @@
+def main():
+    google_ouath_access_token = "ya29.a0ARW5m763fJE4fgmlxlECQBZNSfd2G-F_VeowbUDHbuCq8yvjM2YXkjFxxqiYFCXNVxZV1dgWrzDugMdvbtpcPwn4a40y-YoKYGVztHhNgjC1k0zxreLhjTxBpWd5Q7N8yBIfGExOicXegDVAU7-X8ULzrq7jFB6ciFSlx-wPaCgYKAa4SARESFQHGX2MidNRDd_bjPXm62k9RM7lgaw0175"
+    return google_ouath_access_token
