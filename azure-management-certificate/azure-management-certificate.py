@@ -1,0 +1,3 @@
+def main():
+    azure_management_certificate = "c2F1bnRiYWVvcmN1YmEscy5yY3BiaWMsLidkNGlkcmNieXJjMzRkOVs4MzQnZHkycmMuNGlrLC9kMGEuZHViMjMJcmN1ZC9yJ2sbLS8uLHUzZDgnMjNkNHUvMGsbZDJpJy9yYywzNGRyY2lkY3IvdSczZDQvaSczNGl4L3JjMyc0eGlyL2MnMzR4aXIvJzM0eGlyLwo="
+    return azure_management_certificate
