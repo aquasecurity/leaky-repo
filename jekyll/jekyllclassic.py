@@ -1,3 +1,3 @@
 def main():
-    jekyll_classic = "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"
-    return jekyll_classic
+    jekyll_token = "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"
+    return jekyll_token
