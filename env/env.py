@@ -1,3 +1,3 @@
 def main():
-    env = "Qazwsxedc!@#123"
-    return env
+    password = "Qazwsxedc!@#123"
+    return password
