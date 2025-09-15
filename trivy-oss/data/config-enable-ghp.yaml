@@ -1,5 +1,0 @@
-enable-builtin-rules:
-  - github-pat
-
-disable-allow-rules:
-  - tests
