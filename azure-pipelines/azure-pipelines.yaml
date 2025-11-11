@@ -1,0 +1,31 @@
+trigger:
+  - main
+
+variables:
+  # Comment with space before variable
+  # DB_PASSWORD: TempPassword123456
+  
+  #Comment without space before variable
+  #API_SECRET: SecretKey987654321
+  
+  # Regular unquoted variable
+  BUILD_PASSWORD: BuildPass123456789
+  
+  # Quoted variable
+  DEPLOY_SECRET: "DeploySecret12345678"
+  
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: |
+    echo "Building application"
+    # DB_PASSWORD: CommentedSecret123
+    export APP_PASSWORD=AppSecret123456789
+  displayName: 'Build'
+
+- script: |
+    #CACHE_SECRET: CachedSecret123456
+    echo "Deploying"
+  displayName: 'Deploy'
+
