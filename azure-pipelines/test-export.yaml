@@ -1,0 +1,8 @@
+# Test file for export statements
+export APP_PASSWORD=AppSecret123456789
+export DB_PASSWORD=DbSecret987654321
+
+# Script block
+steps:
+- script: export BUILD_PASSWORD=BuildSecret123456
+
