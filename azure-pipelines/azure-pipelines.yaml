@@ -14,6 +14,16 @@ variables:
   # Quoted variable
   DEPLOY_SECRET: "DeploySecret12345678"
   
+  # Aqua credentials (commented)
+  # AQUA_KEY: AquaKeyValue123456789
+  #AQUA_SECRET: AquaSecretValue987654
+  
+  # Aqua secret as unquoted variable
+  AQUA_SECRET: AquaRealSecret123456
+  
+  # Azure DevOps token
+  AZURE_TOKEN: K7jxqWP9bvhNS4bsHVSpGp7ThiqDeoLxqRYIZBgYIXaZ9Xqw4fKRRL00CJBDBCBCBBBAsbFqmBBBTBZDP5J86
+  
 pool:
   vmImage: 'ubuntu-latest'
 
