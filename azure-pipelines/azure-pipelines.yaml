@@ -19,7 +19,7 @@ variables:
   #AQUA_SECRET: AquaSecretValue987654
   
   # Aqua secret as unquoted variable
-  AQUA_SECRET: AquaRealSecret123456
+  AQUA_SECRET: ${{ secrets.AQUA_SECRET }}
   
   # Azure DevOps token
   AZURE_TOKEN: K7jxqWP9bvhNS4bsHVSpGp7ThiqDeoLxqRYIZBgYIXaZ9Xqw4fKRRL00CJBDBCBCBBBAsbFqmBBBTBZDP5J86
